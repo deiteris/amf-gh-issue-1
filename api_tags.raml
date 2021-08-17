@@ -1,0 +1,13 @@
+#%RAML 1.0
+title: Test API
+baseUri: https://example.com
+protocols:
+  - HTTPS
+
+annotationTypes:
+  tags:
+    type: string
+
+/pets:
+  get:
+    (tags): test
